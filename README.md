@@ -27,8 +27,4 @@ Email: set.nour6@gmail.com
 
 Just so you know, I'm in grade 12. I need to finish school. I just want to make some necessary changes, and I find everything necessary. I hope you understand.
 
-Version 0.14.1.0:
-- Released
-
-
 All other versions (1.3) are listed through the homepage (one of the buttons/links should go to the Github releases and shows the changelog for each release)
