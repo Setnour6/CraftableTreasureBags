@@ -28,7 +28,7 @@ Email: set.nour6@gmail.com
 ~~~~~~
 
 Version 0.14.4.0:
-- Added treasure bag recipes for [c/6E8CB4:Qwerty's Bosses and Items] Mod, along with the treasure items.
+- Added treasure bag recipes for Qwerty's Bosses and Items Mod, along with the treasure items.
 - The Adamantite & Titanium Pendants are now to be crafted at a Mythril or Orichalcum anvil, and no longer craftable at an Iron or Lead anvil.
 - The Adamantite & Titanium Pendants now have alternate crafting recipes.
 - Adjusted all of the pendants' crafting recipe slightly.
