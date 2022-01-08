@@ -27,20 +27,6 @@ Spotify: Setnour6
 Email: set.nour6@gmail.com
 ~~~~~~
 
-Version 0.14.4.0:
-- Added treasure bag recipes for Qwerty's Bosses and Items Mod, along with the treasure items.
-- The Adamantite & Titanium Pendants are now to be crafted at a Mythril or Orichalcum anvil, and no longer craftable at an Iron or Lead anvil.
-- The Adamantite & Titanium Pendants now have alternate crafting recipes.
-- Adjusted all of the pendants' crafting recipe slightly.
-
-Version 0.14.3.0:
-- Resprited the Gold & Platinum Pendants... again.
-- Added the Adamantite and Titanium Pendants for use with the hardmode boss treasure bags.
-- Gold & Platinum Pendants are no longer used to craft the hardmode boss treasure bags.
-- Fixed a bug where Empty Treasure Bags require Workbenches instead of Looms.
-- Updated the description.
-
-All older 1.4 versions are listed on the homepage.
 All 1.3 versions are listed in the GitHub Repository named CraftableTreasureBagsOld.
 
 -- Just to let you know, I'm in grade 12. I need to finish school. I just want to make some necessary changes, and I find everything necessary. I hope you understand.
