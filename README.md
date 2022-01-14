@@ -12,7 +12,7 @@ Craft an empty treasure bag with 10 silk and a black string at a loom.
 Craft a boss treasure bag with the respective boss summon item and certain ingredients (some other recipes require different items as well besides boss loot only).
 
 This mod also contains boss treasure bag recipes for the following 1.4 mods
-- [c/84b8ff:Qwerty's Bosses and Items]
+- Qwerty's Bosses and Items
 
 Differences from the 1.3 version of this mod:
 - More realistic treasure bag recipes (you'll see).
