@@ -1,7 +1,7 @@
-# Craftable Treasure Bags (1.4)
-
 Craftable Treasure Bags, by Setnour6.
-With additional help from Chicken Bones, Solxan, and Convicted Tomatophile (Stevie) for Cross-Mod Recipes.
+With additional help from the following:
+- Chicken Bones, Solxan, and Convicted Tomatophile (Stevie) for the Cross-Mod Recipes help.
+- nextrg for the title/description coloring help.
 
 Have you ever wanted to get expert mode exclusive boss drops in normal mode? Well now you can, with Craftable Treasure Bags. This mod allows you to get expert mode items in normal mode, from crafting boss treasure bags and opening them right in normal mode!
 
@@ -11,8 +11,8 @@ All treasure bags are to be crafted with an empty treasure bag and a boss summon
 Craft an empty treasure bag with 10 silk and a black string at a loom.
 Craft a boss treasure bag with the respective boss summon item and certain ingredients (some other recipes require different items as well besides boss loot only).
 
-This mod contains boss treasure bag recipes for the following 1.4 mods:
-- Qwerty's Bosses and Items
+This mod also contains boss treasure bag recipes for the following 1.4 mods
+- [c/84b8ff:Qwerty's Bosses and Items]
 
 Differences from the 1.3 version of this mod:
 - More realistic treasure bag recipes (you'll see).
@@ -20,11 +20,11 @@ Differences from the 1.3 version of this mod:
 - Skeletron's Treasure Bag can be crafted in two ways (one of them involves a certain criteria).
 
 If you have any questions or concerns, feel free to message me on YouTube or Email. Social platforms I use are listed below.
-
 ~~~~~~
 YouTube: Setnour6
 Spotify: Setnour6
 Email: set.nour6@gmail.com
+PayPal (Donate): https://www.paypal.com/paypalme/setnour
 ~~~~~~
 
 All 1.3 versions are listed in the GitHub Repository named CraftableTreasureBagsOld.
