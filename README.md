@@ -47,6 +47,7 @@ This mod includes modded treasure bag recipes for the following mods:
 - Split
 - Thorium ⭐
 - Ultranium
+
 ⭐ = Overhauled most/all recipes and/or added a treasure item.
 
 *Updates will be less frequent due to real life complications.*
