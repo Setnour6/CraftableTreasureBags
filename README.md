@@ -27,6 +27,6 @@ Email: set.nour6@gmail.com
 PayPal (Donate): https://www.paypal.com/paypalme/setnour
 ~~~~~~
 
-All 1.3 versions are listed in the GitHub Repository named CraftableTreasureBagsOld.
+All historical 1.3 versions are listed in the GitHub Repository named CraftableTreasureBagsOld.
 
 -- Just to let you know, I'm in grade 12. I need to finish school. I just want to make some necessary changes, and I find everything necessary. I hope you understand.
