@@ -54,7 +54,7 @@ This mod includes modded treasure bag recipes for the following mods:
 Differences from the 1.4 version of this mod:
 - More treasure bag recipes (the 1.4 version is still quite new)
 - The 1.4 version is also available on the steam workshop (public alpha/beta only).
-- This version is very outdated and will be replaced with the 1.4 version.
+- This version is very outdated and will be replaced with the 1.4 version upon tModLoader 1.4 official release.
 
 # Other
 
