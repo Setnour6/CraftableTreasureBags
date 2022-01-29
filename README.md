@@ -1,4 +1,4 @@
-# Alpha/Beta Description
+# 1.4 Alpha/Beta Description
 
 Craftable Treasure Bags, by Setnour6.
 With additional help from the following:
