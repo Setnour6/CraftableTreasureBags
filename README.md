@@ -32,24 +32,24 @@ Craft a boss treasure bag with boss loot and the respective boss summon item (so
 Some modded recipes do not use boss summon items to make the treasure bag.
 
 This mod includes modded treasure bag recipes for the following mods:
-- AlchemistNPC [i/s1:75]
+- AlchemistNPC ⭐
 - Ancients Awakened
-- [c/0000FF:Azer][c/00C6FF:cad][c/00FFA6:mium]
+- Azercadmium]
 - Calamity
 - Elements Awoken
 - Enigma
 - Joost
-- Mod of Redemption [i/s1:75]
-- [c/f79bcf:Pinkymod]
+- Mod of Redemption ⭐
+- Pinkymod
 - Qwerty's Bosses and Items
 - Shadows of Abaddon
-- Spirit [i/s1:75]
+- Spirit ⭐
 - Split
-- Thorium [i/s1:75]
+- Thorium ⭐
 - Ultranium
-[i/s1:75] = Overhauled most/all recipes and/or added a treasure item.
+⭐ = Overhauled most/all recipes and/or added a treasure item.
 
-*Updates will be [c/DE2020:less frequent] due to real life complications.*
+*Updates will be less frequent due to real life complications.*
 
 Differences from the 1.4 version of this mod:
 - More treasure bag recipes (the 1.4 version is still quite new)
