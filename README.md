@@ -1,6 +1,3 @@
-# 1.4 Alpha/Beta Description
-### Scroll down for 1.3 description
-
 Craftable Treasure Bags, by Setnour6.
 With additional help from the following:
 - Chicken Bones, Solxan, and Convicted Tomatophile (Stevie) for the Cross-Mod Recipes help.
@@ -17,9 +14,11 @@ Craft an empty treasure bag with 10 silk and a black string at a loom.
 Craft a boss treasure bag with the respective boss summon item and certain ingredients (some other recipes require different items as well besides boss loot only).
 
 This mod also contains boss treasure bag recipes for the following 1.4 mods:
+- Expanded Weapons
 - Mech Bosses Reworked
 - Qwerty's Bosses and Items (Unfinished on their side. Requesting for more things to be updated and added)
 - Vitality Mod
+Note that as of 2022-03-06, the cross mod recipes don't seem to work properly at the moment (1.4 alpha 7a8944a, built 2022-03-06 3:49 PM)
 
 Differences from the 1.3 version of this mod:
 - Localization/Language support for Polish.
