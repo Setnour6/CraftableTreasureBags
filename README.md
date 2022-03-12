@@ -8,17 +8,16 @@ Rewritten from scratch, since porting directly didn't work. Thank you for more t
 Have you ever wanted to get expert mode exclusive boss drops in normal mode? Well now you can, with Craftable Treasure Bags. This mod allows you to get expert mode items in normal mode, from crafting boss treasure bags and opening them, right in normal mode!
 
 This mod contains recipes for all vanilla boss treasure bags (except for the Wall of Flesh).
-
-All treasure bags are to be crafted with an empty treasure bag and a boss summoning item at a Demon Altar, as well as certain items that are to be used to craft the treasure bags, which depend on the boss summoning item you intend to craft with.
-Craft an empty treasure bag with 10 silk and a black string at a loom.
-Craft a boss treasure bag with the respective boss summon item and certain ingredients (some other recipes require different items as well besides boss loot only).
-
 This mod also contains boss treasure bag recipes for the following 1.4 mods:
 - Expanded Weapons
 - Mech Bosses Reworked
 - Qwerty's Bosses and Items (Unfinished on their side. Requesting for more things to be updated and added)
 - Vitality Mod
 Note that as of 2022-03-06, the cross mod recipes don't seem to work properly at the moment (1.4 alpha 7a8944a, built 2022-03-06 3:49 PM)
+
+> All treasure bags are to be crafted with an empty treasure bag and a boss summoning item at a Demon Altar, as well as certain items that are to be used to craft the treasure bags, which depend on the boss summoning item you intend to craft with.
+> Craft an empty treasure bag with 10 silk and a black string at a loom.
+> Craft a boss treasure bag with the respective boss summon item and certain ingredients (some other recipes require different items as well besides boss loot only).
 
 Differences from the 1.3 version of this mod:
 - Localization/Language support for Polish.
