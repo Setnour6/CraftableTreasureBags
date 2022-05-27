@@ -1,0 +1,64 @@
+Craftable Treasure Bags, by Setnour6.
+With additional help from the following:
+- Chicken Bones, Solxan, and Convicted Tomatophile (Stevie) for the Cross-Mod Recipes help.
+- nextrg for the mod title coloring help, and for polish translation.
+
+Rewritten from scratch, since porting directly didn't work. Thank you for more than 80,000+ downloads on the 1.3 version!
+
+Have you ever wanted to get expert mode exclusive boss drops in normal mode? Well now you can, with Craftable Treasure Bags. This mod allows you to get expert mode items in normal mode, from crafting boss treasure bags and opening them, right in normal mode!
+
+This mod contains recipes for all vanilla boss treasure bags (except for the Wall of Flesh).
+This mod also contains boss treasure bag recipes for the following 1.4 mods:
+- Expanded Weapons
+- Mech Bosses Reworked
+- Qwerty's Bosses and Items (Unfinished on their side. Requesting for more things to be updated and added)
+- Vitality Mod
+- Whips & More
+
+> All treasure bags are to be crafted with an empty treasure bag and a boss summoning item at a Demon Altar, as well as certain items that are to be used to craft the treasure bags, which depend on the boss summoning item you intend to craft with.
+> Craft an empty treasure bag with 10 silk and a black string at a loom.
+> Craft a boss treasure bag with the respective boss summon item and certain ingredients (some other recipes require different items as well besides boss loot only).
+
+Differences from the 1.3 version of this mod:
+- Localization/Language support for Polish.
+- More realistic treasure bag recipes (you'll see).
+- Cleaner and more balanced recipe display.
+- Skeletron's Treasure Bag can be crafted in two ways (one of them involves a certain criteria).
+
+This mod is the first 1.4 mod to incorporate cross mod recipes (see github changelog. The date should be shown there).
+
+If you have any questions or concerns, feel free to message me on Steam, or on YouTube or Email. Social platforms I use are listed below.
+~~~~~~
+YouTube: Setnour6
+Spotify: Setnour6
+Email: set.nour6@gmail.com
+PayPal: https://www.paypal.com/paypalme/setnour
+~~~~~~
+Version 0.14.9.0 (current):
+- This mod is now open source!
+- Added Mod support for the Whips & More Mod (finally)
+
+Version 0.14.8.8:
+- Updated to v2022.4.62.1 so this mod still works.
+	- I know that I haven't been updating this mod much and adding mod support. Too much is happening in my life. Thank you for understanding.
+
+Version 0.14.8.7:
+- Rebuilt mod on stable branch v2022.3.35.3 to fix a loading issue where tML would tell you that you need to be on v0.12, instead of on the latest stable/preview build.
+
+Version 0.14.8.6:
+- Fixed a loading issue with Expanded Weapons, where Craftable Treasure Bag couldn't load without it.
+
+Version 0.14.8.5:
+- Updated to tModLoader's new preview version, NOT stable version, so make sure not to get that confused.
+	- I want to make sure even previewers can get this mod, not just stable version users.
+- More mod referencing updates, yay...
+
+To Do:
+- Add more localization. So far, Polish is supported.
+
+All older 1.4 versions are listed on the homepage.
+All 1.3 versions before the are listed in the GitHub Repository named CraftableTreasureBagsOld.
+
+Feel free to provide feedback if you want to.
+
+-- Just to let you know, I'm in grade 12. I need to finish school. Thank you for understanding.

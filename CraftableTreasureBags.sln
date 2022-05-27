@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CraftableTreasureBags", "CraftableTreasureBags.csproj", "{83D37608-4908-4B3B-96E9-D736FF2D77D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{052F401F-E83C-48EB-9AA9-A139F1E5B3BC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83D37608-4908-4B3B-96E9-D736FF2D77D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D37608-4908-4B3B-96E9-D736FF2D77D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D37608-4908-4B3B-96E9-D736FF2D77D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D37608-4908-4B3B-96E9-D736FF2D77D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70A7EA9A-A1C5-4A2B-AA92-3421CAE42A0E}
+	EndGlobalSection
+EndGlobal
