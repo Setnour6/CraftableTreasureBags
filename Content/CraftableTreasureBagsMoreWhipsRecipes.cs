@@ -42,8 +42,8 @@ namespace CraftableTreasureBags
 				if (!ModContent.TryFind("SummonWhips/MeteorBossBag", out ModItem MeteorBossBag)) return; //ExpandedWeapons
 				if (!ModContent.TryFind("SummonWhips/SirVioletBossBag", out ModItem SirVioletBossBag)) return; //ExpandedWeapons
 
-				MeteorBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant").AddIngredient(SummonWhips, "CelestialMeteor", 1).AddIngredient(SummonWhips, "MeteorCore", 2).AddIngredient(ItemID.MeteoriteBar, 15).AddIngredient(ItemID.FallenStar, 3).AddIngredient(SummonWhips, "MeteorShard", 2).AddIngredient(SummonWhips, "MeteorMask").AddTile(26).Register(); //Corite Knight
-				SirVioletBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant").AddIngredient(SummonWhips, "VioletCrystal", 1).AddIngredient(SummonWhips, "MagicFragment", 12).AddIngredient(ItemID.VioletGradientDye).AddIngredient(SummonWhips, "MagicBottle", 1).AddIngredient(SummonWhips, "SirVioletMask").AddTile(26).Register(); //Sir Violet
+				MeteorBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant").AddIngredient(SummonWhips, "CelestialMeteor", 1).AddIngredient(SummonWhips, "MeteorCore", 2).AddIngredient(ItemID.MeteoriteBar, 15).AddIngredient(ItemID.FallenStar, 3).AddIngredient(SummonWhips, "MeteorShard", 2).AddIngredient(SummonWhips, "MeteorMask").AddTile(TileID.DemonAltar).Register(); //Corite Knight
+				SirVioletBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant").AddIngredient(SummonWhips, "VioletCrystal", 1).AddIngredient(SummonWhips, "MagicFragment", 12).AddIngredient(ItemID.VioletGradientDye).AddIngredient(SummonWhips, "MagicBottle", 1).AddIngredient(SummonWhips, "SirVioletMask").AddTile(TileID.DemonAltar).Register(); //Sir Violet
 			}
 		}
 	}

@@ -32,29 +32,24 @@ using Terraria.GameContent.ItemDropRules;
 
 namespace CraftableTreasureBags
 {
-	public class CraftableTreasureBagsExpandWeaponsRecipes : ModSystem
+	public class CraftableTreasureBagsExampleRecipes : ModSystem
 	{
 
 		public override void AddRecipes()
 		{
-			if (!ModLoader.TryGetMod("ExpandedWeapons", out var ExpandedWeapons)) return;
+			if (!ModLoader.TryGetMod("ExampleMod", out var ExampleMod)) return;
 			{
-				if (!ModContent.TryFind("ExpandedWeapons/CloudBossBag", out ModItem CloudBossBag)) return; //ExpandedWeapons
+				if (!ModContent.TryFind("ExampleMod/MinionBossBag", out ModItem MinionBossBag)) return; //ExampleMod
 
-				CloudBossBag.CreateRecipe()
+				MinionBossBag.CreateRecipe()
 					.AddIngredient<Items.EmptyTreasureBag>()
-					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
-					.AddIngredient(ExpandedWeapons, "StrangeCloud", 1)
-					.AddIngredient(ItemID.Cloud, 50)
-					.AddIngredient(ItemID.RainCloud, 30)
-					.AddIngredient(ExpandedWeapons, "RainbowEssence", 12)
-					.AddIngredient(ExpandedWeapons, "CloudHandle")
-					.AddIngredient(ExpandedWeapons, "ChargedCloud")
-					.AddIngredient(ExpandedWeapons, "CloudMask")
+                    .AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
+					.AddIngredient(ExampleMod, "MinionBossSummonItem")
+					.AddIngredient(ExampleMod, "ExampleItem", 999)
+					.AddIngredient(ExampleMod, "MinionBossMask")
 					.AddTile(TileID.DemonAltar)
-					.Register(); //Cloud Boss
+					.Register(); //Minion Boss
 			}
-		
 		}
 	}
 }

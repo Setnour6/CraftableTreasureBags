@@ -41,24 +41,34 @@ namespace CraftableTreasureBags
 			{
 				if (!ModContent.TryFind("VitalityMod/StormCloudBossBag", out ModItem StormCloudBossBag)) return; //VitalityMod
 				if (!ModContent.TryFind("VitalityMod/GrandAntlionBossBag", out ModItem GrandAntlionBossBag)) return; //VitalityMod
+				if (!ModContent.TryFind("VitalityMod/GemstoneElementalBossBag", out ModItem GemstoneElementalBossBag)) return; //VitalityMod
 				if (!ModContent.TryFind("VitalityMod/MoonlightDragonflyBossBag", out ModItem MoonlightDragonflyBossBag)) return; //VitalityMod
 				if (!ModContent.TryFind("VitalityMod/DreadnaughtBossBag", out ModItem DreadnaughtBossBag)) return; //VitalityMod
 				if (!ModContent.TryFind("VitalityMod/AnarchulesBeetleBossBag", out ModItem AnarchulesBeetleBossBag)) return; //VitalityMod
-				if (!ModContent.TryFind("VitalityMod/AnarchulesBeetleCrimsonBossBag", out ModItem AnarchulesBeetleCrimsonBossBag)) return; //VitalityMod
 				if (!ModContent.TryFind("VitalityMod/ChaosbringerBossBag", out ModItem ChaosbringerBossBag)) return; //VitalityMod
 				if (!ModContent.TryFind("VitalityMod/PaladinSpiritBossBag", out ModItem PaladinSpiritBossBag)) return; //VitalityMod
-
-				StormCloudBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.PureVase>().AddIngredient(VitalityMod, "CloudCore").AddIngredient(1243, 1).AddIngredient(317, 3).AddIngredient(VitalityMod, "CloudVapor", 28).AddIngredient(VitalityMod, "StormCloudMask").AddTile(26).AddCondition(Recipe.Condition.NearWater).Register(); //Storm Cloud Phase 1 Type
-				StormCloudBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.PureVase>().AddIngredient(VitalityMod, "CloudCore").AddIngredient(1243, 1).AddIngredient(317, 3).AddIngredient(VitalityMod, "CloudVapor", 28).AddIngredient(VitalityMod, "StormCloudMask2").AddTile(26).AddCondition(Recipe.Condition.NearWater).Register(); //Storm Cloud Phase 2 Type
-				GrandAntlionBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.PureVase>().AddIngredient(VitalityMod, "AncientCrown").AddIngredient(VitalityMod, "AntlionHide").AddIngredient(VitalityMod, "DriedBar", 22).AddIngredient(169, 50).AddIngredient(3271, 50).AddIngredient(VitalityMod, "GrandAntlionMask").AddTile(26).Register(); //The Grand Antlion
-				MoonlightDragonflyBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.PureVase>().AddIngredient(VitalityMod, "MoonlightLotusFlower").AddIngredient(VitalityMod, "GlowingGraniteBar", 3).AddIngredient(314, 3).AddIngredient(VitalityMod, "MoonlightDragonflyMask").AddTile(26).Register(); //Moonlight Dragonfly
-																																																																																						   // Hardmode Recipes Start Here
-				DreadnaughtBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.FireFrostVase>().AddIngredient(VitalityMod, "Dreadcandle").AddIngredient(175, 12).AddIngredient(318, 5).AddIngredient(VitalityMod, "DreadnaughtMask").AddTile(26).Register(); //Dreadnaught
-				AnarchulesBeetleBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.FireFrostVase>().AddIngredient(VitalityMod, "AnarchyCrystal").AddIngredient(VitalityMod, "AnarchyBar", 40).AddIngredient(60, 20).AddIngredient(316, 5).AddIngredient(VitalityMod, "AnarchulesBeetleMask").AddTile(26).Register(); //Anarchules Beetle (Corruption)
-				AnarchulesBeetleCrimsonBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.FireFrostVase>().AddIngredient(VitalityMod, "AnarchyCrystalCrimson").AddIngredient(VitalityMod, "AnarchyBarCrimson", 40).AddIngredient(2887, 20).AddIngredient(316, 5).AddIngredient(VitalityMod, "AnarchulesBeetleCrimsonMask").AddTile(26).Register(); //Anarchules Beetle (Crimson)
-				ChaosbringerBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.FireFrostVase>().AddIngredient(VitalityMod, "TotemofChaos").AddIngredient(VitalityMod, "ChaosBar", 40).AddIngredient(VitalityMod, "ChaosCrystal", 100).AddIngredient(2317).AddIngredient(315, 3).AddIngredient(VitalityMod, "ChaosbringerMask").AddTile(26).Register(); //Chaosbringer
-				PaladinSpiritBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.FireFrostVase>().AddIngredient(VitalityMod, "SpiritBox").AddIngredient(VitalityMod, "EquityCore").AddIngredient(VitalityMod, "SoulofVitality", 40).AddIngredient(VitalityMod, "Ectosoul", 25).AddIngredient(314, 5).AddIngredient(VitalityMod, "PaladinSpiritMask").AddTile(26).Register(); //Paladin Spirit
-
+		
+				StormCloudBossBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddIngredient<Items.VitalityModItems.PureVase>()
+					.AddIngredient(VitalityMod, "CloudCore")
+					.AddIngredient(ItemID.UmbrellaHat, 1)
+					.AddIngredient(ItemID.Waterleaf, 3)
+					.AddIngredient(VitalityMod, "CloudVapor", 28)
+					.AddIngredient(VitalityMod, "StormCloudMask")
+					.AddTile(TileID.DemonAltar)
+					.AddCondition(Recipe.Condition.NearWater)
+					.Register(); //Storm Cloud Phase 1 Type
+				StormCloudBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.PureVase>().AddIngredient(VitalityMod, "CloudCore").AddIngredient(ItemID.UmbrellaHat, 1).AddIngredient(ItemID.Waterleaf, 3).AddIngredient(VitalityMod, "CloudVapor", 28).AddIngredient(VitalityMod, "StormCloudMask2").AddTile(TileID.DemonAltar).AddCondition(Recipe.Condition.NearWater).Register(); //Storm Cloud Phase 2 Type
+				GrandAntlionBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.PureVase>().AddIngredient(VitalityMod, "AncientCrown").AddIngredient(VitalityMod, "AntlionHide").AddIngredient(VitalityMod, "DriedBar", 22).AddIngredient(ItemID.SandBlock, 50).AddIngredient(ItemID.Sandstone, 50).AddIngredient(VitalityMod, "GrandAntlionMask").AddTile(TileID.DemonAltar).Register(); //The Grand Antlion
+				GemstoneElementalBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.PureVase>().AddIngredient(VitalityMod, "MultigemCluster").AddIngredient(ItemID.Geode, 6).AddIngredient(VitalityMod, "RubyPetItem").AddIngredient(VitalityMod, "GemstoneElementalMask").AddTile(TileID.DemonAltar).Register(); //Gemstone Elemental
+				MoonlightDragonflyBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.PureVase>().AddIngredient(VitalityMod, "MoonlightLotusFlower").AddIngredient(VitalityMod, "GlowingGraniteBar", 3).AddIngredient(ItemID.Moonglow, 3).AddIngredient(VitalityMod, "MoonlightDragonflyMask").AddTile(TileID.DemonAltar).Register(); //Moonlight Dragonfly
+				// Hardmode Recipes Start Here
+				DreadnaughtBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.FireFrostVase>().AddIngredient(VitalityMod, "Dreadcandle").AddIngredient(ItemID.HellstoneBar, 12).AddIngredient(ItemID.Fireblossom, 5).AddIngredient(VitalityMod, "DreadnaughtMask").AddTile(TileID.DemonAltar).Register(); //Dreadnaught
+				AnarchulesBeetleBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.FireFrostVase>().AddIngredient(VitalityMod, "AnarchyCrystal").AddIngredient(VitalityMod, "AnarchyBar", 40).AddIngredient(ItemID.VileMushroom, 20).AddIngredient(ItemID.Deathweed, 5).AddIngredient(VitalityMod, "AnarchulesBeetleMask").AddTile(TileID.DemonAltar).Register(); //Anarchules Beetle
+				ChaosbringerBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.FireFrostVase>().AddIngredient(VitalityMod, "TotemofChaos").AddIngredient(VitalityMod, "ChaosBar", 40).AddIngredient(VitalityMod, "ChaosCrystal", 100).AddIngredient(ItemID.ChaosFish).AddIngredient(ItemID.Blinkroot, 3).AddIngredient(VitalityMod, "ChaosbringerMask").AddTile(TileID.DemonAltar).Register(); //Chaosbringer
+				PaladinSpiritBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.VitalityModItems.FireFrostVase>().AddIngredient(VitalityMod, "SpiritBox").AddIngredient(VitalityMod, "EquityCore").AddIngredient(VitalityMod, "SoulofVitality", 40).AddIngredient(VitalityMod, "Ectosoul", 25).AddIngredient(ItemID.Moonglow, 5).AddIngredient(VitalityMod, "PaladinSpiritMask").AddTile(TileID.DemonAltar).Register(); //Paladin Spirit
+		
 			}
 		}
 	}

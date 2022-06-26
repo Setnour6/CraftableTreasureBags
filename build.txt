@@ -1,6 +1,6 @@
-displayName = [c/08EDF4:Craftable] [c/0BAAFF:Treasure] [c/0B4DFF:Bags] [c/FF4804:{PA}] [c/45DC39:(w/ Modded Bags)]
+displayName = [c/08EDF4:Craftable] [c/0BAAFF:Treasure] [c/0B4DFF:Bags] [c/45DC39:(w/ Modded Bags)]
 author = Setnour6
-version = 0.14.9.0
+version = 0.14.10.0
 homepage = https://github.com/Setnour6/CraftableTreasureBags
-weakReferences = QwertyMod@0.7.9, VitalityMod@1.1.4.1, PrimeRework@1.3, ExpandedWeapons@3.2700, SummonWhips@2.5200
-sortAfter =  ExpandedWeapons, PrimeRework, QwertyMod, VitalityMod
+weakReferences = QwertyMod@0.7.13, VitalityMod@1.2.0.1, PrimeRework@1.4, ExpandedWeapons@3.2800, SummonWhips@2.5500
+sortAfter = ExpandedWeapons, PrimeRework, QwertyMod, VitalityMod
