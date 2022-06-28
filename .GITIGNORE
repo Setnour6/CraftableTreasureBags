@@ -350,3 +350,8 @@ MigrationBackup/
 .ionide/
 .vs/CraftableTreasureBags/v17/.suo
 *.cache
+*.v2
+*.v1
+.vs/CraftableTreasureBags/v17/.suo
+.vs/ProjectEvaluation/craftabletreasurebags.metadata.v2
+.vs/ProjectEvaluation/craftabletreasurebags.projects.v2
