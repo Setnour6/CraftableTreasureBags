@@ -352,13 +352,15 @@ MigrationBackup/
 *.cache
 *.v2
 *.v1
+.v1
 .vs/CraftableTreasureBags/v17/.suo
 .vs/ProjectEvaluation/craftabletreasurebags.metadata.v2
 .vs/ProjectEvaluation/craftabletreasurebags.projects.v2
-*.v2
+.v2
 .vs/CraftableTreasureBags/DesignTimeBuild/.dtbcache.v2
 .vs/CraftableTreasureBags/v17/.futdcache.v1
 .vs/CraftableTreasureBags/v17/.suo
 .vs/ProjectEvaluation/craftabletreasurebags.metadata.v2
 .vs/ProjectEvaluation/craftabletreasurebags.projects.v2
 obj/Debug/net6.0/CraftableTreasureBags.csproj.AssemblyReference.cache
+.cache

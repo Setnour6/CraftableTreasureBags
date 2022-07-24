@@ -34,27 +34,29 @@ namespace CraftableTreasureBags
 {
 	public class CraftableTreasureBagsExpandWeaponsRecipes : ModSystem
 	{
-
+		Mod summonWhips = ModLoader.GetMod("SummonWhips");
 		public override void AddRecipes()
 		{
 			if (!ModLoader.TryGetMod("ExpandedWeapons", out var ExpandedWeapons)) return;
 			{
 				if (!ModContent.TryFind("ExpandedWeapons/CloudBossBag", out ModItem CloudBossBag)) return; //ExpandedWeapons
-
-				CloudBossBag.CreateRecipe()
-					.AddIngredient<Items.EmptyTreasureBag>()
-					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
-					.AddIngredient(ExpandedWeapons, "StrangeCloud", 1)
-					.AddIngredient(ItemID.Cloud, 50)
-					.AddIngredient(ItemID.RainCloud, 30)
-					.AddIngredient(ExpandedWeapons, "RainbowEssence", 12)
-					.AddIngredient(ExpandedWeapons, "CloudHandle")
-					.AddIngredient(ExpandedWeapons, "ChargedCloud")
-					.AddIngredient(ExpandedWeapons, "CloudMask")
-					.AddTile(TileID.DemonAltar)
-					.Register(); //Cloud Boss
+				ModLoader.TryGetMod("SummonWhips", out Mod summonWhips);
+				Recipe recipe = CloudBossBag.CreateRecipe();
+				recipe.AddIngredient<Items.EmptyTreasureBag>();
+				recipe.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant");
+				recipe.AddIngredient(ExpandedWeapons, "StrangeCloud", 1);
+				recipe.AddIngredient(ItemID.Cloud, 50);
+				recipe.AddIngredient(ItemID.RainCloud, 30);
+				if (ModLoader.TryGetMod("SummonWhips", out var SummonWhips))
+				{
+					recipe.AddIngredient(SummonWhips, "RainbowEssence", 12);
+				}
+				recipe.AddIngredient(ExpandedWeapons, "CloudHandle");
+				recipe.AddIngredient(ExpandedWeapons, "ChargedCloud");
+				recipe.AddIngredient(ExpandedWeapons, "CloudMask");
+				recipe.AddTile(TileID.DemonAltar);
+				recipe.Register(); //Cloud Boss
 			}
-		
 		}
 	}
 }

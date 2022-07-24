@@ -12,7 +12,7 @@ This mod also contains boss treasure bag recipes for the following 1.4 mods:
 - Example Mod
 - Expanded Weapons
 - Mech Bosses Reworked
-- Qwerty's Bosses and Items (Unfinished on their side. Requesting for more things to be updated and added)
+- Qwerty's Bosses and Items
 - Vitality Mod
 - Whips & More
 
