@@ -35,13 +35,8 @@ Spotify: Setnour6
 Email: set.nour6@gmail.com
 PayPal: https://www.paypal.com/paypalme/setnour
 ~~~~~~
-Version 0.14.10.1 (current):
-- Updated to v2022.6.96.4 for compatibility.
-
-Version 0.14.10.0:
-- Updated to v2022.5.103.34 for compatibility.
-- Updated mod compatibility for the Vitality Mod.
-- Added Cross-mod recipes for the Example Mod.
+Version 0.14.10.2 (current):
+- Updated mod compatibility for the Expanded Weapons mod.
 
 To Do:
 - Add more localization. So far, Polish is supported.
