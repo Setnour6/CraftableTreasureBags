@@ -10,11 +10,12 @@ Have you ever wanted to get expert mode exclusive boss drops in normal mode? Wel
 
 This mod contains recipes for all vanilla boss treasure bags (except for the Wall of Flesh).
 This mod also contains boss treasure bag recipes for the following 1.4 mods:
+- Example Mod
 - Expanded Weapons
 - Mech Bosses Reworked
-- Qwerty's Bosses and Items (Unfinished on their side. Requesting for more things to be updated and added)
+- Qwerty's Bosses and Items
 - Vitality Mod
-Note that as of 2022-03-06, the cross mod recipes don't seem to work properly at the moment (1.4 alpha 7a8944a, built 2022-03-06 3:49 PM)
+- Whips & More
 
 > All treasure bags are to be crafted with an empty treasure bag and a boss summoning item at a Demon Altar, as well as certain items that are to be used to craft the treasure bags, which depend on the boss summoning item you intend to craft with.
 > Craft an empty treasure bag with 10 silk and a black string at a loom.
