@@ -37,15 +37,19 @@ namespace CraftableTreasureBags
 
 		public override void AddRecipes()
 		{
-			
+
 			#region Vanilla Boss Treasure Bags
-			Recipe.Create(ItemID.KingSlimeBossBag, 1)
+			Recipe recipe = Recipe.Create(ItemID.KingSlimeBossBag, 1)
 			.AddIngredient<Items.EmptyTreasureBag>()
 			.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
 			.AddIngredient(ItemID.SlimeCrown, 1)
 			.AddIngredient(ItemID.Gel, 400)
-			.AddIngredient(ItemID.Blinkroot, 2)
-			.AddIngredient(ItemID.KingSlimeMask, 1)
+			.AddIngredient(ItemID.Blinkroot, 2);
+			if (ModLoader.TryGetMod("CalamityMod", out Mod CalamityMod))
+			{
+				recipe.AddIngredient(CalamityMod, "KnowledgeKingSlime", 1);
+			}
+			recipe.AddIngredient(ItemID.KingSlimeMask, 1)
 			.AddTile(TileID.DemonAltar)
 			.Register();
 
