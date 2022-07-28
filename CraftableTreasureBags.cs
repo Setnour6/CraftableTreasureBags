@@ -39,21 +39,34 @@ namespace CraftableTreasureBags
 		{
 
 			#region Vanilla Boss Treasure Bags
-			Recipe recipe = Recipe.Create(ItemID.KingSlimeBossBag, 1)
-			.AddIngredient<Items.EmptyTreasureBag>()
-			.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
-			.AddIngredient(ItemID.SlimeCrown, 1)
-			.AddIngredient(ItemID.Gel, 400)
-			.AddIngredient(ItemID.Blinkroot, 2);
-			if (ModLoader.TryGetMod("CalamityMod", out Mod CalamityMod))
+			Recipe recipe = Recipe.Create(ItemID.KingSlimeBossBag, 1);
+			recipe.AddIngredient<Items.EmptyTreasureBag>();
+			recipe.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant");
+			recipe.AddIngredient(ItemID.SlimeCrown, 1);
+			recipe.AddIngredient(ItemID.Gel, 400);
+			recipe.AddIngredient(ItemID.Blinkroot, 2);
+		/*	if (ModLoader.TryGetMod("CalamityMod", out Mod CalamityMod))
 			{
 				recipe.AddIngredient(CalamityMod, "KnowledgeKingSlime", 1);
 			}
-			recipe.AddIngredient(ItemID.KingSlimeMask, 1)
-			.AddTile(TileID.DemonAltar)
-			.Register();
+		*/	recipe.AddIngredient(ItemID.KingSlimeMask, 1);
+			recipe.AddTile(TileID.DemonAltar);
+			recipe.Register(); //King Slime
 
-			Recipe.Create(3319).AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant").AddIngredient(ItemID.SuspiciousLookingEye, 1).AddIngredient(ItemID.BlackLens, 1).AddIngredient(ItemID.DemoniteOre, 90).AddIngredient(ItemID.Deathweed, 3).AddIngredient(ItemID.EyeMask, 1).AddTile(TileID.DemonAltar).Register(); //EOC (corruption)
+			Recipe.Create(ItemID.EyeOfCthulhuBossBag);
+			recipe.AddIngredient<Items.EmptyTreasureBag>();
+			recipe.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant");
+			recipe.AddIngredient(ItemID.SuspiciousLookingEye, 1);
+			recipe.AddIngredient(ItemID.BlackLens, 1);
+			recipe.AddIngredient(ItemID.DemoniteOre, 90);
+			recipe.AddIngredient(ItemID.Deathweed, 3);
+		/*	if (ModLoader.TryGetMod("CalamityMod", out Mod CalamityMod1)) 
+			{
+				recipe.AddIngredient(CalamityMod, "KnowledgeEyeofCthulhu", 1);
+			}
+		*/	recipe.AddIngredient(ItemID.EyeMask, 1);
+			recipe.AddTile(TileID.DemonAltar);
+			recipe.Register(); //EOC (corruption)
 			Recipe.Create(3319).AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant").AddIngredient(ItemID.SuspiciousLookingEye, 1).AddIngredient(ItemID.BlackLens, 1).AddIngredient(ItemID.CrimtaneOre, 90).AddIngredient(ItemID.Deathweed, 3).AddIngredient(ItemID.EyeMask, 1).AddTile(TileID.DemonAltar).Register(); //EOC (crimson)
 			Recipe.Create(3320).AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant").AddIngredient(70, 1).AddIngredient(56, 300).AddIngredient(86, 150).AddIngredient(316, 5).AddIngredient(315, 3).AddIngredient(2111, 1).AddTile(26).Register(); //EOW
 			Recipe.Create(3321).AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant").AddIngredient(1331, 1).AddIngredient(880, 300).AddIngredient(1329, 150).AddIngredient(316, 5).AddIngredient(315, 3).AddIngredient(2104, 1).AddTile(26).Register(); //BOC

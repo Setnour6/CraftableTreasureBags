@@ -4,3 +4,4 @@ version = 0.14.10.2
 homepage = https://github.com/Setnour6/CraftableTreasureBags
 weakReferences = QwertyMod@0.7.13, VitalityMod@1.2.0.1, PrimeRework@1.4, ExpandedWeapons@3.2800, SummonWhips@2.5500
 sortAfter = ExpandedWeapons, PrimeRework, QwertyMod, VitalityMod
+buildIgnore = .v1, .v2, .suo, .md
