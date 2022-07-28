@@ -48,7 +48,7 @@ namespace CraftableTreasureBags
 				if (!ModContent.TryFind("CalamityMod/RuneGhostBag", out ModItem RuneGhostBag)) return; //CalamityMod
 				if (!ModContent.TryFind("CalamityMod/B4Bag", out ModItem B4Bag)) return; //CalamityMod
 			*/
-				DesertScourgeBag.CreateRecipe()
+			/*	DesertScourgeBag.CreateRecipe()
 				.AddIngredient<Items.EmptyTreasureBag>()
 				.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
 				.AddIngredient(CalamityMod, "DesertMedallion")
@@ -59,7 +59,7 @@ namespace CraftableTreasureBags
 				.AddIngredient(CalamityMod, "DesertScourgeMask")
 				.AddTile(TileID.DemonAltar)
 				.Register(); //Desert Scourge
-
+			*/
 			/*	FortressBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "FortressBossSummon").AddIngredient(QwertyMod, "CaeliteBar", 16).AddIngredient(QwertyMod, "CaeliteCore", 8).AddIngredient(QwertyMod, "FortressBrick", 50).AddIngredient(QwertyMod, "DivineLightMask").AddTile(26).Register(); //The Divine Light
 				AncientMachineBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "AncientEmblem", 1).AddIngredient(180, 20).AddIngredient(999, 10).AddIngredient(315, 3).AddIngredient(QwertyMod, "AncientMachineTrophy").AddTile(26).Register(); //Ancient Machine
 				NoehtnapBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "RitualInterupter", 3).AddIngredient(QwertyMod, "Etims", 50).AddIngredient(QwertyMod, "Reverseand", 50).AddIngredient(315, 3).AddTile(26).Register(); // Noehtnap
