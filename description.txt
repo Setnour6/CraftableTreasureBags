@@ -37,6 +37,7 @@ PayPal: https://www.paypal.com/paypalme/setnour
 ~~~~~~
 Version 0.14.10.2 (current):
 - Updated mod compatibility for the Expanded Weapons mod.
+- Working on Calamity Mod Support. Requesting help. Click on Homepage button.
 
 To Do (in no particular order and priority):
 - Add more localization. So far, Polish is supported.
