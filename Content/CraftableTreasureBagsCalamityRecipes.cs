@@ -40,36 +40,137 @@ namespace CraftableTreasureBags
 			if (!ModLoader.TryGetMod("CalamityMod", out var CalamityMod)) return;
 			{
 				if (!ModContent.TryFind("CalamityMod/DesertScourgeBag", out ModItem DesertScourgeBag)) return; //CalamityMod
-			/*	if (!ModContent.TryFind("CalamityMod/FortressBossBag", out ModItem FortressBossBag)) return; //CalamityMod
-				if (!ModContent.TryFind("CalamityMod/AncientMachineBag", out ModItem AncientMachineBag)) return; //CalamityMod
-				if (!ModContent.TryFind("CalamityMod/NoehtnapBag", out ModItem NoehtnapBag)) return; //CalamityMod
-				if (!ModContent.TryFind("CalamityMod/HydraBag", out ModItem HydraBag)) return; //CalamityMod
-				if (!ModContent.TryFind("CalamityMod/BladeBossBag", out ModItem BladeBossBag)) return; //CalamityMod
-				if (!ModContent.TryFind("CalamityMod/RuneGhostBag", out ModItem RuneGhostBag)) return; //CalamityMod
-				if (!ModContent.TryFind("CalamityMod/B4Bag", out ModItem B4Bag)) return; //CalamityMod
-			*/
-			/*	DesertScourgeBag.CreateRecipe()
-				.AddIngredient<Items.EmptyTreasureBag>()
-				.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
-				.AddIngredient(CalamityMod, "DesertMedallion")
-				.AddIngredient(CalamityMod, "SeaRemains", 5)
-				.AddIngredient(CalamityMod, "VictoryShard", 5)
-				.AddIngredient(ItemID.SandBlock, 30)
-				.AddIngredient(CalamityMod, "KnowledgeDesertScourge")
-				.AddIngredient(CalamityMod, "DesertScourgeMask")
-				.AddTile(TileID.DemonAltar)
-				.Register(); //Desert Scourge
-			*/
-			/*	FortressBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "FortressBossSummon").AddIngredient(QwertyMod, "CaeliteBar", 16).AddIngredient(QwertyMod, "CaeliteCore", 8).AddIngredient(QwertyMod, "FortressBrick", 50).AddIngredient(QwertyMod, "DivineLightMask").AddTile(26).Register(); //The Divine Light
-				AncientMachineBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "AncientEmblem", 1).AddIngredient(180, 20).AddIngredient(999, 10).AddIngredient(315, 3).AddIngredient(QwertyMod, "AncientMachineTrophy").AddTile(26).Register(); //Ancient Machine
-				NoehtnapBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "RitualInterupter", 3).AddIngredient(QwertyMod, "Etims", 50).AddIngredient(QwertyMod, "Reverseand", 50).AddIngredient(315, 3).AddTile(26).Register(); // Noehtnap
-																																																																																		   // Hardmode Recipes Start Here
-				HydraBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "HydraSummon", 3).AddIngredient(QwertyMod, "HydraScale", 50).AddIngredient(QwertyMod, "LuneBar", 20).AddIngredient(316, 5).AddIngredient(QwertyMod, "HydraTrophy").AddTile(26).Register(); //The Hydra
-				BladeBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "BladeBossSummon").AddIngredient(QwertyMod, "CaeliteBar", 10).AddIngredient(QwertyMod, "LuneBar", 15).AddIngredient(QwertyMod, "FortressBrick", 20).AddIngredient(314, 3).AddIngredient(QwertyMod, "BladeBossTrophy").AddTile(26).Register(); //Imperious
-				RuneGhostBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "SummoningRune").AddIngredient(QwertyMod, "CraftingRune", 30).AddIngredient(1508, 30).AddIngredient(315, 5).AddIngredient(314, 5).AddIngredient(QwertyMod, "RuneGhostMask").AddTile(26).Register(); //Rune Ghost
-				B4Bag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "B4Summon", 3).AddIngredient(QwertyMod, "RhuthiniumBar", 30).AddIngredient(315, 3).AddIngredient(316, 3).AddTile(26).Register(); //O.L.O.R.D
-			*/
+					if (!ModContent.TryFind("CalamityMod/CrabulonBag", out ModItem CrabulonBag)) return; //CalamityMod
+					if (!ModContent.TryFind("CalamityMod/HiveMindBag", out ModItem HiveMindBag)) return; //CalamityMod
+					if (!ModContent.TryFind("CalamityMod/PerforatorBag", out ModItem PerforatorBag)) return; //CalamityMod
+					if (!ModContent.TryFind("CalamityMod/SlimeGodBag", out ModItem SlimeGodBag)) return; //CalamityMod
+				/*	if (!ModContent.TryFind("CalamityMod/BladeBossBag", out ModItem BladeBossBag)) return; //CalamityMod
+					if (!ModContent.TryFind("CalamityMod/RuneGhostBag", out ModItem RuneGhostBag)) return; //CalamityMod
+					if (!ModContent.TryFind("CalamityMod/B4Bag", out ModItem B4Bag)) return; //CalamityMod
+				*/
+				DesertScourgeBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
+					.AddIngredient(CalamityMod, "DesertMedallion")
+					.AddIngredient(CalamityMod, "SeaRemains", 5)
+					.AddIngredient(CalamityMod, "VictoryShard", 5)
+					.AddIngredient(ItemID.SandBlock, 30)
+					.AddIngredient(CalamityMod, "DesertScourgeMask")
+					.AddIngredient(CalamityMod, "KnowledgeDesertScourge")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Desert Scourge
+
+				CrabulonBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
+					.AddIngredient(CalamityMod, "DecapoditaSprout")
+					.AddIngredient(ItemID.GlowingMushroom, 75)
+					.AddIngredient(ItemID.MushroomGrassSeeds, 10)
+					.AddIngredient(CalamityMod, "FungalClump")
+					.AddIngredient(CalamityMod, "CrabulonMask")
+					.AddIngredient(CalamityMod, "KnowledgeCrabulon")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Crabulon
+
+				HiveMindBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
+					.AddIngredient(CalamityMod, "Teratoma")
+					.AddIngredient(CalamityMod, "RottenMatter", 30)
+					.AddIngredient(ItemID.RottenChunk, 20)
+					.AddIngredient(ItemID.DemoniteBar, 15)
+					.AddIngredient(ItemID.CorruptSeeds, 15)
+					.AddIngredient(CalamityMod, "RottenBrain")
+					.AddIngredient(CalamityMod, "HiveMindMask")
+					.AddIngredient(CalamityMod, "KnowledgeHiveMind")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //The Hive Mind
+
+				PerforatorBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
+					.AddIngredient(CalamityMod, "BloodyWormFood")
+					.AddIngredient(CalamityMod, "BloodSample", 30)
+					.AddIngredient(ItemID.Vertebrae, 20)
+					.AddIngredient(ItemID.CrimtaneBar, 15)
+					.AddIngredient(ItemID.CrimsonSeeds, 15)
+					.AddIngredient(CalamityMod, "BloodyWormTooth")
+					.AddIngredient(CalamityMod, "PerforatorMask")
+					.AddIngredient(CalamityMod, "KnowledgePerforators")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //The Perforators
+
+				SlimeGodBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
+					.AddIngredient(CalamityMod, "OverloadedSludge")
+					.AddIngredient(CalamityMod, "PurifiedGel", 45)
+					.AddIngredient(ItemID.Gel, 500)
+					.AddIngredient(CalamityMod, "ManaPolarizer")
+					.AddIngredient(CalamityMod, "SlimeGodMask")
+					.AddIngredient(CalamityMod, "KnowledgeSlimeGod")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //The Slime God (Corruption Mask)
+
+				SlimeGodBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
+					.AddIngredient(CalamityMod, "OverloadedSludge")
+					.AddIngredient(CalamityMod, "PurifiedGel", 45)
+					.AddIngredient(ItemID.Gel, 500)
+					.AddIngredient(CalamityMod, "ManaPolarizer")
+					.AddIngredient(CalamityMod, "SlimeGodMask2")
+					.AddIngredient(CalamityMod, "KnowledgeSlimeGod")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //The Slime God (Crimson Mask)
 			}
 		}
+		public override void PostAddRecipes()
+		{
+			if (ModLoader.TryGetMod("CalamityMod", out Mod CalamityMod))
+			for (int i = 0; i < Recipe.numRecipes; i++)
+			{
+				Recipe recipe = Main.recipe[i];
+                #region vanilla knowledge ingredient add
+                if (recipe.HasIngredient(ItemID.KingSlimeMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeKingSlime");
+				if (recipe.HasIngredient(ItemID.EyeMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeEyeofCthulhu");
+				if (recipe.HasIngredient(ItemID.EaterMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeEaterofWorlds");
+				if (recipe.HasIngredient(ItemID.BrainMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeBrainofCthulhu");
+				if (recipe.HasIngredient(ItemID.BeeMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeQueenBee");
+				if (recipe.HasIngredient(ItemID.SkeletronMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeSkeletron");
+		//		if (recipe.HasIngredient(ItemID.DeerclopsMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+		//			recipe.AddIngredient(CalamityMod, "KnowledgeDeerclops");
+		//		if (recipe.HasIngredient(ItemID.QueenSlimeMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+		//			recipe.AddIngredient(CalamityMod, "KnowledgeQueenSlime");
+				if (recipe.HasIngredient(ItemID.TwinMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeTwins");
+				if (recipe.HasIngredient(ItemID.DestroyerMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeDestroyer");
+				if (recipe.HasIngredient(ItemID.SkeletronPrimeMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeSkeletronPrime");
+				if (recipe.HasIngredient(ItemID.PlanteraMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgePlantera");
+				if (recipe.HasIngredient(ItemID.GolemMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeGolem");
+				if (recipe.HasIngredient(ItemID.DukeFishronMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeDukeFishron");
+		//		if (recipe.HasIngredient(ItemID.FairyQueenMask) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+		//			recipe.AddIngredient(CalamityMod, "KnowledgeEmpressofLight");
+				if (recipe.HasIngredient(ItemID.BossMaskCultist) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeLunaticCultist");
+				if (recipe.HasIngredient(ItemID.BossMaskMoonlord) && recipe.HasIngredient<Items.EmptyTreasureBag>())
+					recipe.AddIngredient(CalamityMod, "KnowledgeMoonLord");
+				#endregion
+
+				#region calamity knowledge ingredient add
+				#endregion
+			}
+        }
 	}
 }

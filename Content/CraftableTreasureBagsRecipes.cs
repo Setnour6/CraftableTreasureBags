@@ -61,7 +61,5 @@ namespace CraftableTreasureBags
 			ModContent.ItemType<Items.QwertyModItems.GoldFortressArtifact>(), ModContent.ItemType<Items.QwertyModItems.PlatinumFortressArtifact>());
 			RecipeGroup.RegisterGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact", CTBQwertyModRecipeGroup);
 		}
-
-		
 	}
 }
