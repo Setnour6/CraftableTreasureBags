@@ -34,13 +34,11 @@ namespace CraftableTreasureBags
 {
 	public class CraftableTreasureBagsExpandWeaponsRecipes : ModSystem
 	{
-		Mod summonWhips = ModLoader.GetMod("SummonWhips");
 		public override void AddRecipes()
 		{
 			if (!ModLoader.TryGetMod("ExpandedWeapons", out var ExpandedWeapons)) return;
 			{
 				if (!ModContent.TryFind("ExpandedWeapons/CloudBossBag", out ModItem CloudBossBag)) return; //ExpandedWeapons
-				ModLoader.TryGetMod("SummonWhips", out Mod summonWhips);
 				Recipe recipe = CloudBossBag.CreateRecipe();
 				recipe.AddIngredient<Items.EmptyTreasureBag>();
 				recipe.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant");

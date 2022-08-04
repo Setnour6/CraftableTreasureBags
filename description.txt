@@ -36,7 +36,10 @@ Spotify: Setnour6
 Email: set.nour6@gmail.com
 PayPal: https://www.paypal.com/paypalme/setnour
 ~~~~~~
-Version 0.14.10.2 (current):
+Version 0.14.10.3 (current):
+- Fixed an issue where loading Craftable Treasure Bags without the Whips & More mod will cause errors and crash the game.
+
+Version 0.14.10.2:
 - Updated mod compatibility for the Expanded Weapons mod.
 - Working on Calamity Mod Support. So far, added Pre-hardmode treasure bag recipes for said mod, and made it so all vanilla treasure bag recipes require their respective boss knowledge item if said mod is enabled.
 	- The mod ran into problems as of recently so just wait for it, okay?
