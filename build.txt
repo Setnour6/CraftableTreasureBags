@@ -3,4 +3,4 @@ author = Setnour6
 version = 0.14.10.3
 homepage = https://github.com/Setnour6/CraftableTreasureBags
 weakReferences = QwertyMod@0.8.1, VitalityMod@1.2.0.4, PrimeRework@2.1, ExpandedWeapons@3.3200, SummonWhips@2.6300
-buildIgnore = .v1/*, .v2/*, .suo/*, .md
+buildIgnore = *.user, obj\*, bin\*, .vs\*, lib\*, .git\* .v1\*, .v2\*, .suo\*
