@@ -84,19 +84,19 @@ namespace CraftableTreasureBags.Items.QwertyModItems
 			CreateRecipe()
 			.AddIngredient(QwertyMod, "FortressBrick", 20)
 			.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact")
-			.AddIngredient(520, 5)
-			.AddIngredient(521, 10)
+			.AddIngredient(ItemID.SoulofLight, 5)
+			.AddIngredient(ItemID.SoulofNight, 10)
 			.AddIngredient(QwertyMod, "LuneBar")
-			.AddTile(134)
+			.AddTile(TileID.MythrilAnvil)
 			.Register();
 
 			CreateRecipe()
 			.AddIngredient(QwertyMod, "FortressBrick", 30)
-			.AddIngredient(520, 5)
-			.AddIngredient(521, 10)
+			.AddIngredient(ItemID.SoulofLight, 5)
+			.AddIngredient(ItemID.SoulofNight, 10)
 			.AddIngredient(QwertyMod, "LuneBar", 2)
 			.AddIngredient(QwertyMod, "EnchantedWhetstone")
-			.AddTile(134)
+			.AddTile(TileID.MythrilAnvil)
 			.Register();
 
 		}

@@ -45,11 +45,11 @@ namespace CraftableTreasureBags
 				.AddIngredient<Items.EmptyTreasureBag>()
 				.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
 				.AddIngredient(PrimeRework, "BrainRemote", 1)
-				.AddIngredient(548, 40)
-				.AddIngredient(1225, 30)
-				.AddIngredient(1344, 50)
+				.AddIngredient(ItemID.SoulofMight, 40)
+				.AddIngredient(ItemID.HallowedBar, 30)
+				.AddIngredient(ItemID.Cog, 50)
 				.AddIngredient(PrimeRework, "TerminatorMask")
-				.AddTile(26)
+				.AddTile(TileID.DemonAltar)
 				.Register(); //The Terminator
 			}
 

@@ -51,21 +51,21 @@ namespace CraftableTreasureBags
 				TundraBossBag.CreateRecipe()
 				.AddIngredient<Items.EmptyTreasureBag>()
 				.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact")
-				.AddIngredient(5070, 5)
-				.AddIngredient(2205, 50)
-				.AddIngredient(2358, 3)
+				.AddIngredient(ItemID.FlinxFur, 5)
+				.AddIngredient(ItemID.Penguin, 50)
+				.AddIngredient(ItemID.Shiverthorn, 3)
 				.AddIngredient(QwertyMod, "PolarMask")
-				.AddTile(26)
+				.AddTile(TileID.DemonAltar)
 				.Register(); //Polar Exterminator
 
-				FortressBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "FortressBossSummon").AddIngredient(QwertyMod, "CaeliteBar", 16).AddIngredient(QwertyMod, "CaeliteCore", 8).AddIngredient(QwertyMod, "FortressBrick", 50).AddIngredient(QwertyMod, "DivineLightMask").AddTile(26).Register(); //The Divine Light
-				AncientMachineBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "AncientEmblem", 1).AddIngredient(180, 20).AddIngredient(999, 10).AddIngredient(315, 3).AddIngredient(QwertyMod, "AncientMachineTrophy").AddTile(26).Register(); //Ancient Machine
-				NoehtnapBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "RitualInterupter", 3).AddIngredient(QwertyMod, "Etims", 50).AddIngredient(QwertyMod, "ReverseSand", 50).AddIngredient(315, 3).AddTile(26).Register(); // Noehtnap
+				FortressBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "FortressBossSummon").AddIngredient(QwertyMod, "CaeliteBar", 16).AddIngredient(QwertyMod, "CaeliteCore", 8).AddIngredient(QwertyMod, "FortressBrick", 50).AddIngredient(QwertyMod, "DivineLightMask").AddTile(TileID.DemonAltar).Register(); //The Divine Light
+				AncientMachineBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "AncientEmblem", 1).AddIngredient(ItemID.Topaz, 20).AddIngredient(ItemID.Amber, 10).AddIngredient(ItemID.Blinkroot, 3).AddIngredient(QwertyMod, "AncientMachineTrophy").AddTile(TileID.DemonAltar).Register(); //Ancient Machine
+				NoehtnapBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Fortress Artifact").AddIngredient(QwertyMod, "RitualInterupter", 3).AddIngredient(QwertyMod, "Etims", 50).AddIngredient(QwertyMod, "ReverseSand", 50).AddIngredient(ItemID.Blinkroot, 3).AddTile(TileID.DemonAltar).Register(); // Noehtnap
 																																																																																		   // Hardmode Recipes Start Here
-				HydraBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "HydraSummon", 3).AddIngredient(QwertyMod, "HydraScale", 50).AddIngredient(QwertyMod, "LuneBar", 20).AddIngredient(316, 5).AddIngredient(QwertyMod, "HydraTrophy").AddTile(26).Register(); //The Hydra
-				BladeBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "BladeBossSummon").AddIngredient(QwertyMod, "CaeliteBar", 10).AddIngredient(QwertyMod, "LuneBar", 15).AddIngredient(QwertyMod, "FortressBrick", 20).AddIngredient(314, 3).AddIngredient(QwertyMod, "BladeBossTrophy").AddTile(26).Register(); //Imperious
-				RuneGhostBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "SummoningRune").AddIngredient(QwertyMod, "CraftingRune", 30).AddIngredient(1508, 30).AddIngredient(315, 5).AddIngredient(314, 5).AddIngredient(QwertyMod, "RuneGhostMask").AddTile(26).Register(); //Rune Ghost
-				B4Bag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "B4Summon", 3).AddIngredient(QwertyMod, "RhuthiniumBar", 30).AddIngredient(315, 3).AddIngredient(316, 3).AddTile(26).Register(); //O.L.O.R.D
+				HydraBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "HydraSummon", 3).AddIngredient(QwertyMod, "HydraScale", 50).AddIngredient(QwertyMod, "LuneBar", 20).AddIngredient(ItemID.Deathweed, 5).AddIngredient(QwertyMod, "HydraTrophy").AddTile(TileID.DemonAltar).Register(); //The Hydra
+				BladeBossBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "BladeBossSummon").AddIngredient(QwertyMod, "CaeliteBar", 10).AddIngredient(QwertyMod, "LuneBar", 15).AddIngredient(QwertyMod, "FortressBrick", 20).AddIngredient(ItemID.Moonglow, 3).AddIngredient(QwertyMod, "BladeBossTrophy").AddTile(TileID.DemonAltar).Register(); //Imperious
+				RuneGhostBag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "SummoningRune").AddIngredient(QwertyMod, "CraftingRune", 30).AddIngredient(ItemID.Ectoplasm, 30).AddIngredient(ItemID.Blinkroot, 5).AddIngredient(ItemID.Moonglow, 5).AddIngredient(QwertyMod, "RuneGhostMask").AddTile(TileID.DemonAltar).Register(); //Rune Ghost
+				B4Bag.CreateRecipe().AddIngredient<Items.EmptyTreasureBag>().AddIngredient<Items.QwertyModItems.MoonlightFortressArtifact>().AddIngredient(QwertyMod, "B4Summon", 3).AddIngredient(QwertyMod, "RhuthiniumBar", 30).AddIngredient(ItemID.Blinkroot, 3).AddIngredient(ItemID.Deathweed, 3).AddTile(TileID.DemonAltar).Register(); //O.L.O.R.D
 
 			}
 		}

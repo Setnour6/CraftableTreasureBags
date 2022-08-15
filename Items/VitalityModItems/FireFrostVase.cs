@@ -64,7 +64,7 @@ namespace CraftableTreasureBags.Items.VitalityModItems
 			.AddIngredient(VitalityMod, "EssenceofFire", 10)
 			.AddIngredient(VitalityMod, "EssenceofFrost", 10)
 			.AddIngredient(VitalityMod, "AncientGoldBar", 1)
-			.AddTile(134)
+			.AddTile(TileID.MythrilAnvil)
 			.Register();
 		}
 	}

@@ -62,8 +62,8 @@ namespace CraftableTreasureBags.Items.VitalityModItems
 			CreateRecipe()
 			.AddIngredient(VitalityMod, "PurifiedBar", 2)
 			.AddIngredient(VitalityMod, "SteelAlloy", 1)
-			.AddIngredient(331, 1)
-			.AddTile(16)
+			.AddIngredient(ItemID.JungleSpores, 1)
+			.AddTile(TileID.Anvils)
 			.Register();
 		}
 	}

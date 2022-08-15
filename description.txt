@@ -36,13 +36,11 @@ Spotify: Setnour6
 Email: set.nour6@gmail.com
 PayPal: https://www.paypal.com/paypalme/setnour
 ~~~~~~
-Version 0.14.10.3 (current):
-- Fixed an issue where loading Craftable Treasure Bags without the Whips & More mod will cause errors and crash the game.
-
-Version 0.14.10.2:
-- Updated mod compatibility for the Expanded Weapons mod.
-- Working on Calamity Mod Support. So far, added Pre-hardmode treasure bag recipes for said mod, and made it so all vanilla treasure bag recipes require their respective boss knowledge item if said mod is enabled.
-	- The mod ran into problems as of recently so just wait for it, okay?
+Version 0.14.10.4 (current):
+- Updated the code (see GitHub Repository for more info)
+- Added Luminite Pendant for boss treasure bags that are only available post-moon lord (modded bags, basically, as a placeholder)
+- Fixed an issue where pendants would appear as if they were floating when dropped on the ground.
+- Adjusted some pre-hardmode treasure bag recipes; Deerclops' treasure bag uses 50% less snow and ice blocks to craft. Increased the amount of Blinkroots needed however.
 
 To Do (in no particular order and priority):
 - Add more localization. So far, Polish is supported.

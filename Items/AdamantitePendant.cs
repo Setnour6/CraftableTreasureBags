@@ -59,15 +59,15 @@ namespace CraftableTreasureBags.Items
 		public override void AddRecipes()
 		{
 			CreateRecipe()
-			.AddIngredient(391, 3)
-			.AddIngredient(85, 2)
-			.AddTile(134)
+			.AddIngredient(ItemID.AdamantiteBar, 3)
+			.AddIngredient(ItemID.Chain, 2)
+			.AddTile(TileID.MythrilAnvil)
 			.Register();
 
 			CreateRecipe()
-			.AddIngredient(366, 10)
+			.AddIngredient(ItemID.AdamantiteOre, 10)
 			.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
-			.AddTile(134)
+			.AddTile(TileID.MythrilAnvil)
 			.Register();
 		}
 	}

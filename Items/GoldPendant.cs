@@ -59,9 +59,9 @@ namespace CraftableTreasureBags.Items
 		public override void AddRecipes()
 		{
 			CreateRecipe()
-			.AddIngredient(19, 3)
-			.AddIngredient(85, 2)
-			.AddTile(16)
+			.AddIngredient(ItemID.GoldBar, 3)
+			.AddIngredient(ItemID.Chain, 2)
+			.AddTile(TileID.Anvils)
 			.Register();
 		}
 	}

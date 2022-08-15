@@ -62,9 +62,9 @@ namespace CraftableTreasureBags.Items.QwertyModItems
 			
 			CreateRecipe()
 			.AddIngredient(QwertyMod, "FortressBrick", 10)
-			.AddIngredient(706, 2)
+			.AddIngredient(ItemID.PlatinumBar, 2)
 			.AddIngredient(QwertyMod, "EnchantedWhetstone")
-			.AddTile(16)
+			.AddTile(TileID.Anvils)
 			.Register();
 		
 		}

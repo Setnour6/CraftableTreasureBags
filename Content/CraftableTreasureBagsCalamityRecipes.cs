@@ -44,10 +44,12 @@ namespace CraftableTreasureBags
 					if (!ModContent.TryFind("CalamityMod/HiveMindBag", out ModItem HiveMindBag)) return; //CalamityMod
 					if (!ModContent.TryFind("CalamityMod/PerforatorBag", out ModItem PerforatorBag)) return; //CalamityMod
 					if (!ModContent.TryFind("CalamityMod/SlimeGodBag", out ModItem SlimeGodBag)) return; //CalamityMod
-				/*	if (!ModContent.TryFind("CalamityMod/BladeBossBag", out ModItem BladeBossBag)) return; //CalamityMod
-					if (!ModContent.TryFind("CalamityMod/RuneGhostBag", out ModItem RuneGhostBag)) return; //CalamityMod
-					if (!ModContent.TryFind("CalamityMod/B4Bag", out ModItem B4Bag)) return; //CalamityMod
-				*/
+					// HARDMODE
+					if (!ModContent.TryFind("CalamityMod/CryogenBag", out ModItem CryogenBag)) return; //CalamityMod
+					if (!ModContent.TryFind("CalamityMod/AquaticScourgeBag", out ModItem AquaticScourgeBag)) return; //CalamityMod
+					if (!ModContent.TryFind("CalamityMod/BrimstoneWaifuBag", out ModItem BrimstoneWaifuBag)) return; //CalamityMod
+					if (!ModContent.TryFind("CalamityMod/CalamitasBag", out ModItem CalamitasBag)) return; //CalamityMod
+				
 				DesertScourgeBag.CreateRecipe()
 					.AddIngredient<Items.EmptyTreasureBag>()
 					.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
@@ -123,6 +125,59 @@ namespace CraftableTreasureBags
 					.AddIngredient(CalamityMod, "KnowledgeSlimeGod")
 					.AddTile(TileID.DemonAltar)
 					.Register(); //The Slime God (Crimson Mask)
+
+				// HARDMODE RECIPES BEGIN HERE
+
+				CryogenBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
+					.AddIngredient(CalamityMod, "CryoKey")
+					.AddIngredient(CalamityMod, "EssenceofEleum", 8)
+					.AddIngredient(ItemID.FrostCore, 3)
+					.AddIngredient(ItemID.IceBlock, 50)
+					.AddIngredient(CalamityMod, "SoulofCryogen")
+					.AddIngredient(CalamityMod, "CryogenMask")
+					.AddIngredient(CalamityMod, "KnowledgeCryogen")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Cryogen
+
+				AquaticScourgeBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
+					.AddIngredient(CalamityMod, "Seafood")
+					.AddIngredient(CalamityMod, "BleachedAnglingKit", 1)
+					.AddIngredient(CalamityMod, "SulphurousSand", 50)
+					.AddIngredient(CalamityMod, "AquaticEmblem")
+					.AddIngredient(CalamityMod, "AquaticScourgeMask")
+					.AddIngredient(CalamityMod, "KnowledgeAquaticScourge")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Aquatic Scourge
+
+				BrimstoneWaifuBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
+					.AddIngredient(CalamityMod, "CharredIdol")
+					.AddIngredient(CalamityMod, "EssenceofChaos", 8)
+					.AddIngredient(CalamityMod, "BrimstoneSlag", 50)
+					.AddIngredient(CalamityMod, "Gehenna")
+					.AddIngredient(CalamityMod, "Abaddon")
+					.AddIngredient(CalamityMod, "BrimstoneWaifuMask")
+					.AddIngredient(CalamityMod, "KnowledgeBrimstoneElemental")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Brimstone Elemental
+
+				CalamitasBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
+					.AddIngredient(CalamityMod, "EyeofDesolation")
+					.AddIngredient(CalamityMod, "EssenceofChaos", 8)
+					.AddIngredient(CalamityMod, "AshesofCalamity", 14)
+					.AddIngredient(ItemID.BrokenHeroSword)
+					.AddIngredient(CalamityMod, "VoidofCalamity")
+					.AddIngredient(CalamityMod, "CalamitasMask")
+					.AddIngredient(CalamityMod, "KnowledgeCalamitasClone")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Calamitas
 			}
 		}
 		public override void PostAddRecipes()

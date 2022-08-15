@@ -117,7 +117,6 @@ C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasu
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\NVorbis.dll
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\RailSDK.Net.dll
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\ReLogic.dll
-C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\SixLabors.ImageSharp.dll
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\Steamworks.NET.dll
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\SteelSeriesEngineWrapper.dll
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\System.CodeDom.dll
@@ -146,7 +145,6 @@ C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasu
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\MonoMod.Utils.xml
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\ReLogic.pdb
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\ReLogic.xml
-C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\SixLabors.ImageSharp.xml
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\System.CodeDom.xml
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\System.Configuration.ConfigurationManager.xml
 C:\Users\setno\Documents\My Games\Terraria\tModLoader\ModSources\CraftableTreasureBags\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.xml
