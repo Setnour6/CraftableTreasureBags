@@ -29,27 +29,39 @@ using System.Runtime.InteropServices;
 using ReLogic.Graphics;
 using Terraria.GameContent.UI;
 using Terraria.GameContent.ItemDropRules;
+using ReLogic.Content;
+using System.Reflection;
+using Terraria.ModLoader.Config;
 
 namespace CraftableTreasureBags
 {
 	public class CraftableTreasureBagsCalamityRecipes : ModSystem
 	{
-
+		internal bool calamityLoaded;
+		public override void Load()
+        {
+			calamityLoaded = ModLoader.TryGetMod("CalamityMod", out Mod mod);
+		}
 		public override void AddRecipes()
 		{
-			if (!ModLoader.TryGetMod("CalamityMod", out var CalamityMod)) return;
+			ModLoader.TryGetMod("CalamityMod", out Mod CalamityMod);
 			{
 				if (!ModContent.TryFind("CalamityMod/DesertScourgeBag", out ModItem DesertScourgeBag)) return; //CalamityMod
-					if (!ModContent.TryFind("CalamityMod/CrabulonBag", out ModItem CrabulonBag)) return; //CalamityMod
-					if (!ModContent.TryFind("CalamityMod/HiveMindBag", out ModItem HiveMindBag)) return; //CalamityMod
-					if (!ModContent.TryFind("CalamityMod/PerforatorBag", out ModItem PerforatorBag)) return; //CalamityMod
-					if (!ModContent.TryFind("CalamityMod/SlimeGodBag", out ModItem SlimeGodBag)) return; //CalamityMod
-					// HARDMODE
-					if (!ModContent.TryFind("CalamityMod/CryogenBag", out ModItem CryogenBag)) return; //CalamityMod
-					if (!ModContent.TryFind("CalamityMod/AquaticScourgeBag", out ModItem AquaticScourgeBag)) return; //CalamityMod
-					if (!ModContent.TryFind("CalamityMod/BrimstoneWaifuBag", out ModItem BrimstoneWaifuBag)) return; //CalamityMod
-					if (!ModContent.TryFind("CalamityMod/CalamitasBag", out ModItem CalamitasBag)) return; //CalamityMod
-				
+				if (!ModContent.TryFind("CalamityMod/CrabulonBag", out ModItem CrabulonBag)) return; //CalamityMod
+				if (!ModContent.TryFind("CalamityMod/HiveMindBag", out ModItem HiveMindBag)) return; //CalamityMod
+				if (!ModContent.TryFind("CalamityMod/PerforatorBag", out ModItem PerforatorBag)) return; //CalamityMod
+				if (!ModContent.TryFind("CalamityMod/SlimeGodBag", out ModItem SlimeGodBag)) return; //CalamityMod
+				// HARDMODE
+				if (!ModContent.TryFind("CalamityMod/CryogenBag", out ModItem CryogenBag)) return; //CalamityMod
+				if (!ModContent.TryFind("CalamityMod/AquaticScourgeBag", out ModItem AquaticScourgeBag)) return; //CalamityMod
+				if (!ModContent.TryFind("CalamityMod/BrimstoneWaifuBag", out ModItem BrimstoneWaifuBag)) return; //CalamityMod
+				if (!ModContent.TryFind("CalamityMod/CalamitasBag", out ModItem CalamitasBag)) return; //CalamityMod
+				if (!ModContent.TryFind("CalamityMod/LeviathanBag", out ModItem LeviathanBag)) return; //CalamityMod
+				if (!ModContent.TryFind("CalamityMod/AstrumAureusBag", out ModItem AstrumAureusBag)) return; //CalamityMod
+				if (!ModContent.TryFind("CalamityMod/PlaguebringerGoliathBag", out ModItem PlaguebringerGoliathBag)) return; //CalamityMod
+				if (!ModContent.TryFind("CalamityMod/RavagerBag", out ModItem RavagerBag)) return; //CalamityMod
+				if (!ModContent.TryFind("CalamityMod/AstrumDeusBag", out ModItem AstrumDeusBag)) return; //CalamityMod
+
 				DesertScourgeBag.CreateRecipe()
 					.AddIngredient<Items.EmptyTreasureBag>()
 					.AddRecipeGroup("CraftableTreasureBags:Gold/Platinum Pendant")
@@ -170,7 +182,7 @@ namespace CraftableTreasureBags
 					.AddIngredient<Items.EmptyTreasureBag>()
 					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
 					.AddIngredient(CalamityMod, "EyeofDesolation")
-					.AddIngredient(CalamityMod, "EssenceofChaos", 8)
+					.AddIngredient(CalamityMod, "EssenceofChaos", 12)
 					.AddIngredient(CalamityMod, "AshesofCalamity", 14)
 					.AddIngredient(ItemID.BrokenHeroSword)
 					.AddIngredient(CalamityMod, "VoidofCalamity")
@@ -178,8 +190,99 @@ namespace CraftableTreasureBags
 					.AddIngredient(CalamityMod, "KnowledgeCalamitasClone")
 					.AddTile(TileID.DemonAltar)
 					.Register(); //Calamitas
+
+				LeviathanBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
+					.AddIngredient(CalamityMod, "PearlofEnthrallment")
+					.AddIngredient(CalamityMod, "LeviathanAmbergris")
+					.AddIngredient(CalamityMod, "TheCommunity")
+					.AddIngredient(CalamityMod, "AquaticHeart")
+					.AddIngredient(CalamityMod, "LeviathanMask")
+					.AddIngredient(CalamityMod, "AnahitaMask")
+					.AddIngredient(CalamityMod, "KnowledgeLeviathanAnahita")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Leviathan and Anahita
+
+				AstrumAureusBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
+					.AddIngredient(CalamityMod, "AstralChunk")
+					.AddIngredient(CalamityMod, "Stardust", 50)
+					.AddIngredient(CalamityMod, "AureusCell", 12)
+					.AddIngredient(ItemID.FallenStar, 38)
+					.AddIngredient(CalamityMod, "GravistarSabaton")
+					.AddIngredient(CalamityMod, "AstrumAureusMask")
+					.AddIngredient(CalamityMod, "KnowledgeAstrumAureus")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Astrum Aureus
+
+				PlaguebringerGoliathBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
+					.AddIngredient(CalamityMod, "Abombination")
+					.AddIngredient(ItemID.Stinger, 20)
+					.AddIngredient(CalamityMod, "PlagueCellCanister", 25)
+					.AddIngredient(CalamityMod, "InfectedArmorPlating", 18)
+					.AddIngredient(CalamityMod, "ToxicHeart")
+					.AddIngredient(CalamityMod, "PlaguebringerGoliathMask")
+					.AddIngredient(CalamityMod, "KnowledgePlaguebringerGoliath")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Plaguebringer Goliath
+
+				Recipe recipe = RavagerBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
+					.AddIngredient(CalamityMod, "DeathWhistle");
+			/*	if (CalamityMod != null)
+                {
+					if (!(bool)CalamityMod.Call("GetBossDowned", "providence"))
+					{
+						recipe.AddIngredient(CalamityMod, "FleshyGeode");
+					}
+					else
+					{
+						recipe.AddIngredient(CalamityMod, "NecromanticGeode");
+						recipe.AddIngredient(CalamityMod, "BloodflareCore");
+					}
+				}
+		*/		recipe.AddIngredient(CalamityMod, "FleshyGeode");
+				recipe.AddIngredient(CalamityMod, "BloodPact")
+					.AddIngredient(CalamityMod, "FleshTotem")
+					.AddIngredient(CalamityMod, "RavagerMask")
+					.AddIngredient(CalamityMod, "KnowledgeRavager")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Ravager (Fleshy Geode)
+
+				RavagerBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
+					.AddIngredient(CalamityMod, "DeathWhistle")
+					.AddIngredient(CalamityMod, "NecromanticGeode")
+					.AddIngredient(CalamityMod, "BloodflareCore")
+					.AddIngredient(CalamityMod, "BloodPact")
+					.AddIngredient(CalamityMod, "FleshTotem")
+					.AddIngredient(CalamityMod, "RavagerMask")
+					.AddIngredient(CalamityMod, "KnowledgeRavager")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Ravager (Necromantic Geode)
+			
+				AstrumDeusBag.CreateRecipe()
+					.AddIngredient<Items.EmptyTreasureBag>()
+					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
+					.AddIngredient(CalamityMod, "Starcore")
+					.AddIngredient(CalamityMod, "Stardust", 100)
+					.AddIngredient(CalamityMod, "GalacticaSingularity", 25)
+					.AddIngredient(ItemID.FallenStar, 72)
+					.AddIngredient(CalamityMod, "HideofAstrumDeus")
+					.AddIngredient(CalamityMod, "ChromaticOrb")
+					.AddIngredient(CalamityMod, "AstrumDeusMask")
+					.AddIngredient(CalamityMod, "KnowledgeAstrumDeus")
+					.AddTile(TileID.DemonAltar)
+					.Register(); //Astrum Deus
 			}
 		}
+		
 		public override void PostAddRecipes()
 		{
 			if (ModLoader.TryGetMod("CalamityMod", out Mod CalamityMod))

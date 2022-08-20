@@ -9,7 +9,7 @@ Have you ever wanted to get expert mode exclusive boss drops in normal mode? Wel
 
 This mod contains recipes for all vanilla boss treasure bags (except for the Wall of Flesh).
 This mod also contains boss treasure bag recipes for the following 1.4 mods:
-- Calamity Mod (Only Pre-Hardmode)
+- Calamity Mod (Pre-Hardmode & Hardmode only)
 - Example Mod
 - Expanded Weapons
 - Mech Bosses Reworked
@@ -36,16 +36,21 @@ Spotify: Setnour6
 Email: set.nour6@gmail.com
 PayPal: https://www.paypal.com/paypalme/setnour
 ~~~~~~
-Version 0.14.10.4 (current):
-- Updated the code (see GitHub Repository for more info)
+Version 0.14.11.0 (current):
+- Added the Hardmode boss treasure bags from the Calamity Mod.
+	- I am using a mod.call thing for the first time. Feel free to provide feedback about it on whether it works or not.
 - Added Luminite Pendant for boss treasure bags that are only available post-moon lord (modded bags, basically, as a placeholder)
 - Fixed an issue where pendants would appear as if they were floating when dropped on the ground.
 - Adjusted some pre-hardmode treasure bag recipes; Deerclops' treasure bag uses 50% less snow and ice blocks to craft. Increased the amount of Blinkroots needed however.
+- Removed all use of weakReferences.
 
 To Do (in no particular order and priority):
 - Add more localization. So far, Polish is supported.
 - Update compatibility with Whips & More, and Mech Bosses Reworked if needed.
 - Complete mod support for the Calamity Mod.
+
+Plans:
+- Expand on the mod itself (Alternative Demon/Crimson Altar craft type)
 
 All older 1.4 versions are listed on the homepage.
 All 1.3 versions before the are listed in the GitHub Repository named CraftableTreasureBagsOld.
