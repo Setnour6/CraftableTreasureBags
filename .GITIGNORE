@@ -366,3 +366,6 @@ MigrationBackup/
 .vs/ProjectEvaluation/craftabletreasurebags.projects.v2
 obj/Debug/net6.0/CraftableTreasureBags.csproj.AssemblyReference.cache
 .cache
+.vs/CraftableTreasureBags/v17/.suo
+.vs/CraftableTreasureBags/v17/.futdcache.v1
+*.v1
