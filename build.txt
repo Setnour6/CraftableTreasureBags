@@ -2,4 +2,4 @@ displayName = [c/08EDF4:Craftable] [c/0BAAFF:Treasure] [c/0B4DFF:Bags] [c/45DC39
 author = Setnour6
 version = 0.14.11.0
 homepage = https://github.com/Setnour6/CraftableTreasureBags
-buildIgnore = *.user, obj\*, bin\*, .vs\*, lib\*, .git\* .v1\*, .v2\*, .suo\* 
+buildIgnore = *.user, obj\*, bin\*, .vs\*, lib\*, .git\* .v1\*, .v2\*, .suo\*
