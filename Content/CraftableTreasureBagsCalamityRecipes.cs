@@ -196,6 +196,7 @@ namespace CraftableTreasureBags
 					.AddRecipeGroup("CraftableTreasureBags:Adamantite/Titanium Pendant")
 					.AddIngredient(CalamityMod, "PearlofEnthrallment")
 					.AddIngredient(CalamityMod, "LeviathanAmbergris")
+					.AddIngredient(CalamityMod, "TheCommunity")
 					.AddIngredient(CalamityMod, "AquaticHeart")
 					.AddIngredient(CalamityMod, "LeviathanMask")
 					.AddIngredient(CalamityMod, "AnahitaMask")
